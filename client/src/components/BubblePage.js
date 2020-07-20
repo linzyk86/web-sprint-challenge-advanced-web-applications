@@ -13,9 +13,6 @@ useEffect(() => {
     getData();
   });
 
-
-    
-
   const getData = () => {
         // fetch protected data from the API using axiosWithAuth
         axiosWithAuth()
